@@ -14,20 +14,6 @@ The primary output of this project is a [shiny application](https://shiny.rstudi
 
 In addition, the project created a website to learn more about the application. The site is live @ [www.incontrolofeffects.com](https://incontrolofeffects.com).
 
-## The Data
-
-The data included in this package is based on a meta-analysis by in Huhn's and colleagues (2019)[^1]. The dataset covers 32 antipsychotic medications and the risk of seven side effects, which are listed in the table below.
-
-| Medical Name    | Common Name
-| :-------------- | :--------------------------
-| Akathisia       | Dry Mouth and Constipation
-| Anticholinergic | Feeling Sleepy or Drowsy
-| Antiparkinson   | Irregular Heartbeat
-| Prolactin       | Restlessness
-| QTC             | Sexual Dysfunction
-| Sedation        | Stiffness and Tremor
-| Weight          | Weight Gain
-
 ## Disclaimer
 
 The **In Control of Effects** project and all related packages created are part of ongoing research led by researchers at the University of Oxford. Each tool produced by the In Control of Effects project does not replace medical treatment or consultation with any healthcare professional. Any information produced by this tool should be discussed with an individual's psychiatrist or other healthcare provider as this app does not take into account individual patient characteristics, pre-existing medical conditions, any current medical treatment or medications may already be prescribed. Any concerns in regard to side effects, medications, or anything related to medical treatment should be discussed a healthcare provider.
