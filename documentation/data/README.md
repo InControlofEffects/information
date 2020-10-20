@@ -10,11 +10,11 @@ This guide provides information on the analytics modules in the **In Control of 
 - [Extracting Data](#extracting-data)
 - [Example Log](#example-log)
 
-## Introduction {#introduction}
+## [Introduction](#introduction)
 
 The In Control of Effects application has an analytics modules. This provides a series of methods for logging application interactions to file using a consistent format. This is important for understanding how the app is used (i.e., which buttons are clicked, session duration, etc.), which side effects were selected, results, errors, and other information. The analytics modules ask for or collect user identifying information, such as IP address, device, etc. Accounts are required to use the app, but accounts are anonymous.
 
-## Log structure {#log-structure}
+## [Log structure](#log-structure)
 
 Logs are saved as individual JSON files. All log filenames include the prefix `analytics_` and the time when the session was started in `yy_mm_dd_hhmmss` format. The structure of the log as a number of properties and nested objects. The basic structure is described in the following table.
 
@@ -31,7 +31,7 @@ Logs are saved as individual JSON files. All log filenames include the prefix `a
 | selections [^3](#note-3) | A nested object containing a record of side effects selected.
 | results [^3](#note-3) | A nested object containing a record of medication results returned.
 
-### Notes {#notes}
+### [Notes](#notes)
 
 <ol>
 <li id="note-1">These properties are set by the `analytics` module.</li>
@@ -39,7 +39,7 @@ Logs are saved as individual JSON files. All log filenames include the prefix `a
 <li id="note-3">Each submission and result is assigned an Id that is links selections with corresponding log in `history`</li>
 </ol>
 
-## Extracting Data {#extracting-data}
+## [Extracting Data](#extracting-data)
 
 JSON files can be read into R using any JSON package (e.g., `jsonlite`, `rjson`, etc.).
 
@@ -106,7 +106,7 @@ ls.str(d)
 #'> version :  chr "0.0.5"
 ```
 
-## Example Log {#example-log}
+## [Example Log](#example-log)
 
 A sample application log is listed below. The filename is: `analytics_20_10_20_201903.json`
 
