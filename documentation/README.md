@@ -13,4 +13,4 @@ The primary output of this project is a [shiny application](https://shiny.rstudi
 To learn more about the application and the packages listed above, take a look at the following guides.
 
 - [The application analytics module: logging user interactions](app_data/)
-- [Generating medication recommendations with the `iceData` package](generating_medications/)
+- [Generating medication recommendations with the `iceData` package](generating_recommendations/)
