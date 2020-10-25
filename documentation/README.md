@@ -14,3 +14,4 @@ To learn more about the application and the packages listed above, take a look a
 
 - [The application analytics module: logging user interactions](app_data/)
 - [Generating medication recommendations with the `iceData` package](generating_recommendations/)
+- [Building an app with the `iceComponents` package](developing_an_app/)
