@@ -20,7 +20,3 @@ ui <- tagList(
     ...
 )
 ```
-
-## Example
-
-tbd

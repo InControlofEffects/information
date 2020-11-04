@@ -12,7 +12,7 @@ The primary output of this project is a [shiny application](https://shiny.rstudi
 - [browsertools](https://github.com/davidruvolo51/browsertools): a package for communication between R and the client
 - [rheroicons](https://github.com/davidruvolo51/rheroicons): the Heroicons library for R; an inline SVG icon library
 
-> **Note**: Some of the projects are set to private while we are still making changes and validating the datasets, as well as feedback from collaborators. 
+> **Note**: Some of the projects are set to private while we are still making changes and validating the datasets, as well as feedback from collaborators. Check back later for updates!
 
 In addition, the project created a website to learn more about the application. The site is live @ [www.incontrolofeffects.com](https://incontrolofeffects.com).
 
