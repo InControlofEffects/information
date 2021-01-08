@@ -151,14 +151,11 @@ results_germany
 #> # … with 13 more rows
 ```
 
-
 ## Limitations
 
 Before you use this package in any project, there are a few important limitations to discuss.
 
 1. Most important, results do not account for existing diagnoses, treatments or medications that you may already be taking, or any other medical condition. If you have any concerns about side effects or medical treatment, these should be discussed with your healthcare provider.
-1. Data should not be filtered for a specific side effect(s). This function is designed to run with all seven side effects.
-2. The sum of the weights must be 1. Otherwise, an error will be thrown.
-3. There is not enough evidence to support multiple side effect selections. Do not create UIs that allow multiple user selections.
-
-
+2. Data should not be filtered for a specific side effect(s). This function is designed to run with all seven side effects.
+3. The sum of the weights must be 1. Otherwise, an error will be thrown.
+4. There is not enough evidence to support multiple side effect selections. Do not create UIs that allow multiple user selections.
