@@ -14,6 +14,10 @@ The primary output of this project is a [shiny application](https://shiny.rstudi
 
 > **Note**: Some of the projects are set to private while we are still making changes and validating the datasets, as well as feedback from collaborators. Check back later for updates!
 
+To illustrate how these packages fit within the application, and the project itself, have a look at the following diagram.
+
+![the in control of effects app structure and flow](imgs/app_flow.png)
+
 In addition, the project created a website to learn more about the application. The site is live @ [www.incontrolofeffects.com](https://incontrolofeffects.com).
 
 ## Disclaimer
